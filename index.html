@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>JavaScript Game</title>
+</head>
+<body>	
+	<div class="wrapper">
+		<div class="game">
+			<h1 class="game__time">Время игры: <span id="time">5.0</span></h1>
+			<h1 class="game__score">Ваш результат: <span id="score"></span></h1>
+			<div class="game__box">
+				<button class="game__start-button" id="start">Начать</button>
+				<div class="game__field" id="game"></div>
+			</div>
+			<label class="game__info" for="game-time">Время игры, (сек)</label>
+			<input class="game__input-time" type="number" value="5" id="game-time" min="5" step="1">
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
