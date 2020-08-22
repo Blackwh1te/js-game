@@ -9,11 +9,11 @@
 <body>	
 	<div class="wrapper">
 		<div class="game">
-			<h1 class="game__time">Время игры: <span id="time">5.0</span></h1>
-			<h1 class="game__score">Ваш результат: <span id="score"></span></h1>
+			<h1 class="game__time" id="time-header">Время игры: <span id="time">5.0</span></h1>
+			<h1 class="game__result hide" id="result-header">Ваш результат: <span id="result"></span></h1>
 			<div class="game__box">
 				<button class="game__start-button" id="start">Начать</button>
-				<div class="game__field" id="game"></div>
+				<div class="game__field hide" id="game"></div>
 			</div>
 			<label class="game__info" for="game-time">Время игры, (сек)</label>
 			<input class="game__input-time" type="number" value="5" id="game-time" min="5" step="1">
